@@ -1,0 +1,53 @@
+def double(sequence):
+	result = []
+	for element in sequence:
+		result = result + [element*2]
+	return result
+
+double([1, 2, 3]) 
+	VALID
+double([1, 2, 3, 4, 5])
+	VALID
+double([1, 2, 3], [4, 5, 6])
+	INVALID
+
+
+def double(x):
+	result = []
+	for element in x:
+		result = result + [element*2]
+	return result
+
+x = [1, 2, 3]
+double(x)
+	VALID
+
+
+def triple(y):
+	result = []
+	for element in y:
+		result = result + [element*3]
+	return result
+
+y = [1, 2, 3]
+triple(y)
+	VALID
+
+
+def halve(g):
+	result = []
+	for element in g:
+		result = result + [element/2]
+	return result
+
+g = [2, 4, 6]
+halve(g)
+	VALID
+
+triple(x)
+	VALID
+halve(x)
+	VALID
+
+etc, etc, etc.
+	
